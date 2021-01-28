@@ -1,4 +1,4 @@
-package com.alphasense.poc.dto;
+package com.lazycompiler.poc.dto;
 
 public class StreamingData {
 

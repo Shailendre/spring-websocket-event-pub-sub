@@ -1,6 +1,6 @@
-package com.alphasense.poc.emitter;
+package com.lazycompiler.poc.emitter;
 
-import com.alphasense.poc.dto.StreamingData;
+import com.lazycompiler.poc.dto.StreamingData;
 
 import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Component;
@@ -18,9 +18,9 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
-public class DataEmitterB implements DataEmitter {
+public class DateEmitterA implements DataEmitter {
 
-    private static final String ID = "6789";
+    private static final String ID = "12345";
 
     @Override
     public StreamingData emit() throws Exception {
@@ -45,7 +45,7 @@ public class DataEmitterB implements DataEmitter {
 
     @PostConstruct
     public void init() {
-        log.info("Starting DataEmitterB Scheduler!");
+        log.info("Starting DataEmitterA Scheduler!");
         ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
         executorService.scheduleWithFixedDelay(() -> {
             try {

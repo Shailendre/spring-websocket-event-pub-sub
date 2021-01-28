@@ -1,7 +1,7 @@
-package com.alphasense.poc.publish;
+package com.lazycompiler.poc.publish;
 
-import com.alphasense.poc.dto.StreamingData;
-import com.alphasense.poc.emitter.DataEmitter;
+import com.lazycompiler.poc.dto.StreamingData;
+import com.lazycompiler.poc.emitter.DataEmitter;
 
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;

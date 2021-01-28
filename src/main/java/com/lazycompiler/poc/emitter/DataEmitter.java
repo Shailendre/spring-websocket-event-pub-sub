@@ -1,6 +1,6 @@
-package com.alphasense.poc.emitter;
+package com.lazycompiler.poc.emitter;
 
-import com.alphasense.poc.dto.StreamingData;
+import com.lazycompiler.poc.dto.StreamingData;
 
 public interface DataEmitter {
 

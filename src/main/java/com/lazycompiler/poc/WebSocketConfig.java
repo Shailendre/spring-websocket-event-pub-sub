@@ -1,4 +1,4 @@
-package com.alphasense.poc;
+package com.lazycompiler.poc;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;

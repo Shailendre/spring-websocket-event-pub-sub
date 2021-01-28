@@ -1,6 +1,6 @@
-package com.alphasense.poc;
+package com.lazycompiler.poc;
 
-import com.alphasense.poc.dto.StreamingData;
+import com.lazycompiler.poc.dto.StreamingData;
 
 import com.google.gson.Gson;
 

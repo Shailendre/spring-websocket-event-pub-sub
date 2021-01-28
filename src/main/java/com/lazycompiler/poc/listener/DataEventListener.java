@@ -1,7 +1,7 @@
-package com.alphasense.poc.listener;
+package com.lazycompiler.poc.listener;
 
-import com.alphasense.poc.SocketHandler;
-import com.alphasense.poc.dto.StreamingData;
+import com.lazycompiler.poc.SocketHandler;
+import com.lazycompiler.poc.dto.StreamingData;
 
 import com.google.gson.Gson;
 
